@@ -2,6 +2,12 @@
 
 ## Project: Modules and Testing
 
+## Project Description
+
+- Creates function called `fibonacci` that returns the nth value in the fibonacci series
+- Creates function called `lucas` that returns the nth value in the fibonacci series
+- Creates function called `sum_series` that produces numbers from the fibonacci series or lucas series depending on which params are included. If params do not match those series, then add up the numbers of the last two numbers in the series
+
 ### Author: Rhett Chase
 
 ### Links and Resources
@@ -31,6 +37,5 @@
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- Run tests by activating virtual environment and running `pytest` command in command line
+- `test_sum_series` includes 6 tests for various scenarios for which parameters are entered (e.g., left blank, different from `fibonacci` and `lucas` criteria, etc.)
